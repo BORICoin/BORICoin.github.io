@@ -1,0 +1,40 @@
+.single-white {
+    color: #fff !important;
+}
+
+.single-red {
+    color: #45dea6 !important;
+}
+
+.color-red {
+    color: #45dea6;
+}
+
+.mini-card-img {
+    margin-bottom: 12px;
+}
+
+.mini-card-img:hover {
+    filter: brightness(0) invert(1);
+}
+
+.disabled-link {
+    pointer-events: none;
+    cursor: default;
+}
+
+.section__header {
+    padding-top: 250px;
+}
+
+.section__header h1 {
+    line-height: 50px;
+}
+
+.mini-card-img-hover {
+    opacity: 0;
+}
+
+.mini-card-img-hover:hover {
+    opacity: 1;
+}   
