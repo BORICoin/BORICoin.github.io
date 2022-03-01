@@ -37,4 +37,21 @@
 
 .mini-card-img-hover:hover {
     opacity: 1;
-}   
+}
+
+.mobile-cake {
+    display: none !important;
+  }
+  
+.desktop-cake {
+    display: inline !important;
+}
+  
+  @media only screen and (max-width: 640px) {
+    .mobile-cake {
+      display: inline !important;
+    }
+    .desktop-cake {
+      display: none !important;
+    }
+  }
